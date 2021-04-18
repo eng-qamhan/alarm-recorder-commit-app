@@ -278,7 +278,7 @@ class LocalNotification {
         ongoing: true,
         enableVibration: true,
         ticker: 'test ticker',
-        sound: RawResourceAndroidNotificationSound('so_no.aiff'),
+        sound: RawResourceAndroidNotificationSound('so_no'),
         playSound: true);
     IOSNotificationDetails iosNotificationDetails = IOSNotificationDetails(
         presentSound: true,
